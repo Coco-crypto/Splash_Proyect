@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_motion_layout_informacion_scene"
+    tools:context=".MotionLayoutInformacion">
+
+    <ImageView
+        android:id="@+id/CovidImageView"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/covid" />
+
+    <TextView
+        android:id="@+id/InformacionTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="INFORMACION GENERAL"
+        android:textColor="#1A75B8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CovidImageView" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ccc"
+        app:layout_constraintBottom_toBottomOf="@id/InformacionTextView"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+
+
+◉ Debido al posible colapso del Sistema de Salud, nosotros, los profesionales de la medicina,\n
+ hemos preparado este mensaje para la población, en caso de que no quiera arriesgarse\n
+  a ir a un hospital de inmediato o no pueda;\n
+____
+◉ Los síntomas del COVID-19 aparecen a partir del tercer día después de adquirir la infección (síntomas del virus).\n
+
+ ➙ 1ª fase; 3er día
+◉ Dolor corporal
+◉ Dolor de ojos
+◉ Dolor de cabeza
+◉ Vómitos
+◉ Diarrea
+Secreción nasal o congestión nasal
+◉ Decaimiento
+◉ Ojos ardientes
+◉ Ardor al orinar
+◉ Sentirse febril
+◉ Garganta raspada (dolor de garganta)
+
+➙ Es muy importante contar los días de síntomas: 1º, 2º, 3º.➙ Medicamento:
+
+◉ Es necesario actuar antes de que aparezca la fiebre.
+◉ No espere a que le llegue la fiebre antes de tomar el antibiótico.
+◉ Atención, es muy importante beber abundante líquido, especialmente agua purificada.
+
+
+➙ 2ª fase; (del 4º al 8º día) inflamatorio.
+
+◉ Pérdida del gusto y / o el olfato
+◉ Cansancio a los mínimos esfuerzos
+◉ Dolor en el pecho (caja torácica)
+◉ Opresión en el pecho
+◉ Dolor en la espalda baja (en la región de los riñones)
+____
+➙ El virus ataca las terminaciones nerviosas;
+◉ La diferencia entre cansancio y dificultad para respirar:
+• _Falta de aire, es cuando la persona está sentada - sin hacer ningún esfuerzo - y le falta aire;
+• Cansancio, es cuando la persona se mueve para hacer algo sencillo y se siente cansada.
+____
+➙ Se necesita mucha hidratación y vitamina C.
+____
+Covid-19 impide un buen suministro de oxígeno, por lo tanto, la calidad de la sangre es deficiente, con menos oxígeno.
+Si tiene tos, tome un poco de jarabe para la tos [recomiendo el jarabe de acetilcisteína y el sobre]. O  Bromexina.
+____
+ ➙ 3ª fase - curación;
+◉ El día 9 entra la fase de cicatrización, que puede llegar hasta el día 14 (convalecencia).
+◉ ¡No demore el tratamiento, cuanto antes mejor!
+____
+➙ ¡Buena suerte a todos!
+Es mejor que mantengamos estas recomendaciones, ¡la prevención nunca es demasiado!
+____
+➙ Consejo de hospitales de aislamiento, puedo hacerlo en casa.
+◉ Medicamentos que se toman en hospitales aislados;
+• Vitamina C-1000
+• Vitamina E (E)
+• De 10:00 a. M. A 11:00 a. M., Siéntese al sol durante 15 a 20 minutos
+• Descansar y dormir, al menos, de 7 a 8 horas.
+• Beber 1 litro y medio de agua al día
+• Todas las comidas deben estar calientes (no frías). Esto es todo lo que hacemos en los hospitales para fortalecer el sistema inmunológico.
+____
+➙ Tenga en cuenta que el pH del coronavirus varía de 5.5 a 8.5.
+Entonces, todo lo que tenemos que hacer, para eliminar el virus es consumir más alimentos alcalinos, por encima del nivel ácido del virus.
+Tales como;
+◉ Plátanos, Limón verde → 9,9 pH
+◉ Limón amarillo → 8.2 pH
+◉ Aguacate - 15,6 pH
+◉ Ajo - 13,2 pH
+◉ Mango - pH 8,7
+◉ Mandarina - 8.5 pH
+◉ Piña - 12,7 pH
+◉ Berro - 22,7 pH
+◉ Naranjas - 9.2 pH
+____
+➙ ¡¿Cómo sabes que tienes Covid-19 ?!
+◉ Picazón de garganta
+◉ Sequedad de garganta
+◉ Tos seca
+◉ Alta temperatura
+◉ Dificultad para respirar
+◉ Pérdida del olfato y el gusto
+_"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.motion.widget.MotionLayout>
